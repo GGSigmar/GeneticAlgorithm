@@ -4,7 +4,7 @@ public class LetThemFight
     {
         long startTime = System.nanoTime();
 
-        Population populacja = new Population(200, 30, 0.01);
+        Population populacja = new Population(200, 30, 0.01); // edit to fiddle with parameters
 
         while(populacja.generationNumber<=populacja.numberOfGenerations)
         {
